@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Hanken+Grotesk:wght@500&family=Outfit:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.logo{
+    position: absolute;
+    left: 45%;
+    top: 15%;
+
+    background-color: hsl(171, 66%, 44%), hsl(233, 100%, 69%);
+}
+.main
+{
+
+    margin: 6% 30px;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.para{
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+
+
+}
+#btn1{
+    margin-top: 20px;
+    height: 40px;
+    width: 160px;
+    border-radius: 28px;
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px hsl(171, 66%, 44%);
+}
+#btn2{
+    margin-top: 20px;
+    height: 40px;
+    width: 160px;
+    border-radius: 28px;
+    border: none;
+    background-color: hsl(233, 100%, 69%);
+    font-weight: 600;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px hsl(233, 100%, 69%);
+    
+}
+h2{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+
+p{
+    color:hsl(201, 11%, 66%);
+    
+}
+
+}
+.para2{
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+
+.left{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    margin-top: 100px;
+    margin-right: 55px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20%;
+    width: 42%;
+    height: 45vh;
+
+}
+.right h4{
+    margin-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+.right p{
+    margin-bottom: 10px;
+    color: hsl(201, 11%, 66%);
+}
+.second h2{
+    margin-top: 8%;
+    text-align: center;
+    font-weight: 600;
+
+}
+.second p{
+    
+        width: 40%;
+        margin-left: 30%;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        font-weight: 400;
+        text-align: center;
+        color: hsl(201, 11%, 66%);
+}
+.device{
+    /* border: 3px solid black; */
+    margin-left: 18%;
+    margin-bottom: 4%;
+
+}
+
+.third h1{
+    margin-bottom: 20px;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+.third p{
+    text-align: center;    
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 100px;
+
+
+}
+.snippets{
+    margin-left: 20%;
+    margin-right: 20%;
+    /* border: 10px solid black; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.text_snip{
+    /* border: 7px solid black; */
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+    text-align: center;
+}
+.all
+{
+    width: 30%;
+    /* border: 5px solid black; */
+}
+.all h3{
+    padding-bottom: 10px;
+}
+.all p{
+    padding-bottom: 20%;
+
+}
+.logos{
+    /* margin-top: 50%; */
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 10%;
+
+
+}
+.pp{
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    padding-bottom: 2.5%;
+
+}
+#butn1{
+    height: 40px;
+    width: 160px;
+    border-radius: 28px;
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px hsl(171, 66%, 44%);
+
+}
+#butn2{
+    margin-top: 20px;
+    height: 40px;
+    width: 160px;
+    border-radius: 28px;
+    border: none;
+    background-color: hsl(233, 100%, 69%);
+    font-weight: 600;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px hsl(233, 100%, 69%);
+
+}
+.center{
+    margin-left: 39%;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.final{
+    background-color: hsl(200, 25%, 95%);
+    height: 20vh;
+    display: flex;
+}
+.okati{
+    /* border: 1px solid black; */
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.rendu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    /* border: 1px solid red; */
+    width: 38%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+
+
+
+}
+
+.ppp1 p{
+    padding-bottom: 20px ;
+    /* color: hsl(201, 11%, 66%); */
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    
+}
+.ppp2 p{
+    padding-bottom: 20px ;
+    color:hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+.ppp3 p{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+.mudu{
+    margin-left: 15%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+
+    /* border: 3px solid black; */
+}
+
+
+
+
+
+
